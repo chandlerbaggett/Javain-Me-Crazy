@@ -20,11 +20,9 @@
 * Michael Voecks
 
 ## <a name="description"></a>Description
-CU Boulder has so many things happening every day it's hard to keep track of it all, and that is why our group decided to make an app that consolidates everything in one place. The app will be able to provide locations of buildings, sports scores, hours of dining halls, on campus events, and bus routes. The idea is to have one source for all CU info that any student could need.
+CU Boulder has so many things happening every day it's hard to keep track of it all, and that is why our group decided to make an app that consolidates everything in one place. The app is separated into four groups: a campus map with building locations/hours, bus routes, events happening on campus, and sports scores. The idea is to have one source for all CU info that any student could need.
 
-Whether a student needs a lift from the buff bus, is looking for a snak at a grab-n-go, or is curious how well our volleyball team did last nigh, that student needs to go searching on google to find three separate websites that will provide the information. In fact, many students are just plainly unaware of the opportunities and events that CU hosts because the information is not readily available to them. There is no central hub that can support students with all the resources they have.
-
-Our app will provide a simple place that students will trust for their CU information. The app will provide a great way to efficiently navigate the campus with building locations/hours and bus routes. Additionally, the app will help students get engaged with the sports scene and events on campus.
+Whether a student needs a lift from the buff bus, is looking for a snak at a grab-n-go, or is curious how well our volleyball team did last nigh, that student needs to go searching on google to find three separate websites that will provide the information. In fact, many students are just plainly unaware of the opportunities and events that CU hosts because the information is not readily available to them. Our app will provide a simple solution to that problem. This will become "the" app that any CU student needs to stay connected on campus.
 
 ## <a name="vision-statement"></a>Vision Statement
 asdfasdf
