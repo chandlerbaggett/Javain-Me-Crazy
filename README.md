@@ -40,11 +40,15 @@ Whether a student needs a lift from the buff bus, is looking for a snack at a gr
 
 ## <a name="risks"></a>Risks & Risk Mitigation Plan
 Risks: Potential Risks that would prevent us from completing this project include but are not limited to
+
 (1) conflicting schedules of group members, 
+
 (2) miscommunication because of remote working environments, and 
+
 (3) lack of experience in google maps api.
 
 Risk Mitigation Plan: 
+
 (1) To avoid the risk of not being able to meet in person before milestones are due, we as a team will plan out 2 weeks in advance the day we are going to meet to discuss and assign tasks for that milestone. During these in person meetings we will also be updated on our progress thus far.
 
 (2) To avoid the risk of miscommunication when working remotely, we as a team will use our team Trello board to clearly assign tasks to individual team members. We will also use the communication/discussion tool on Trello to clarify any misunderstandings or confusions on who is supposed to be working on what.
