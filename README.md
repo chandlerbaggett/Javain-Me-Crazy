@@ -31,7 +31,13 @@ asdfasdf
 asdfasdf
 
 ## <a name="risks"></a>Risks & Risk Mitigation Plan
-asdfasddf
+Risks: Potential Risks that would prevent us from completing this project include but are not limited to (1) conflicting schedules of group members, (2) miscommunication because of remote working environments, and (3) lack of experience in google maps api.
+
+Risk Mitigation Plan: (1) To avoid the risk of not being able to meet in person before milestones are due, we as a team will plan out 2 weeks in advance the day we are going to meet to discuss and assign tasks for that milestone. During these in person meetings we will also be updated on our progress thus far.
+
+(2) To avoid the risk of miscommunication when working remotely, we as a team will use our team Trello board to clearly assign tasks to individual team members. We will also use the communication/discussion tool on Trello to clarify any misunderstandings or confusions on who is supposed to be working on what.
+
+(3) To succeed, despite our unfamiliarity with working with the google maps api, we as a team will do reasearch and familiarize ourselves with the program interface so that at least a portion of our team feels comfortable enough to explain and implement it in order to have our location feature included in our app.
 
 ## <a name="version-control"></a>Version Control
 Github.
