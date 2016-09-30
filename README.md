@@ -63,4 +63,5 @@ We are planning on following the waterfall methohdology. We may take techniques 
 
 ## <a name="colab-tool"></a>Collaboration Tool
 Group text for basic day to day communication.
-Trello for the outline of the project and group member assignments
+
+Trello to communicate the outline of the project and group member assignments
