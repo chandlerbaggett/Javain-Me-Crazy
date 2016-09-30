@@ -26,18 +26,26 @@ Whether a student needs a lift from the buff bus, is looking for a snack at a gr
 
 ## <a name="vision-statement"></a>Vision Statement
 1) To simplify the connection between students and Boulder organization
+
 2) Collect, compress, and convey all available relevant events and various information
+
 3) To provide a clear and constant media outlet, acquainting students to exclusive campus events, news, and day to day necessities.
 
 ## <a name="motivation"></a>Motivation
 1) Every student deserve quick and easy access to campus news and various information, but the CU Boulder information infrastructure does not allow for that.
+
 2) The vague and limited connection between students and the University will remain a common problem until there is an common knowledge converging the interests of the two parties.
+
 3) Life consists of learning and accumulating information - some can fine the time, however, most cannot; we want information exclusive to Boulder students to only be a touch away.
 
 ## <a name="risks"></a>Risks & Risk Mitigation Plan
-Risks: Potential Risks that would prevent us from completing this project include but are not limited to (1) conflicting schedules of group members, (2) miscommunication because of remote working environments, and (3) lack of experience in google maps api.
+Risks: Potential Risks that would prevent us from completing this project include but are not limited to
+(1) conflicting schedules of group members, 
+(2) miscommunication because of remote working environments, and 
+(3) lack of experience in google maps api.
 
-Risk Mitigation Plan: (1) To avoid the risk of not being able to meet in person before milestones are due, we as a team will plan out 2 weeks in advance the day we are going to meet to discuss and assign tasks for that milestone. During these in person meetings we will also be updated on our progress thus far.
+Risk Mitigation Plan: 
+(1) To avoid the risk of not being able to meet in person before milestones are due, we as a team will plan out 2 weeks in advance the day we are going to meet to discuss and assign tasks for that milestone. During these in person meetings we will also be updated on our progress thus far.
 
 (2) To avoid the risk of miscommunication when working remotely, we as a team will use our team Trello board to clearly assign tasks to individual team members. We will also use the communication/discussion tool on Trello to clarify any misunderstandings or confusions on who is supposed to be working on what.
 
