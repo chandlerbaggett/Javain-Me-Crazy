@@ -1,5 +1,6 @@
 The requirements:
 1. A screenshot of your database schema – it can be created with tools like MySQL Workbench or SQL Management Studio or you can use any other tool like a Microsoft word or PowerPoint. Your schema diagram should include the tables, attributes and the relationships between the tables.
+DONE - Michael
 
 2. A screenshot of data in your tables – an image which shows that you have tables with data populated. (If your project has a lot of tables, you can show just a sample data: for example, like 10 rows in 3 or 4 tables)
 
