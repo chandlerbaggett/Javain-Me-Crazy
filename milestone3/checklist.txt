@@ -1,0 +1,19 @@
+The requirements:
+1. A screenshot of your database schema – it can be created with tools like MySQL Workbench or SQL Management Studio or you can use any other tool like a Microsoft word or PowerPoint. Your schema diagram should include the tables, attributes and the relationships between the tables.
+
+2. A screenshot of data in your tables – an image which shows that you have tables with data populated. (If your project has a lot of tables, you can show just a sample data: for example, like 10 rows in 3 or 4 tables)
+
+3. A .sql file which you used to create these tables and populate the data in those tables. (You can also have two separate files for creating and populating)
+
+4. A document which explains which database you chose (like MySQL, SQLite, Oracle, etc.,), names of all the tables in your database, how much data you have in those tables.
+
+What we have so far:
+1. Michael has made an ER diagram with our database, this will satisfy req 1, he just needs to upload a photo into this directory on the github.
+
+2. This is why we need to manually add some rows, but once we manually populate a bit we can take a screenshot and we are good.
+
+3. After finishing step number two someone just has to type:
+mysqldump -u sql3141988 -p -h sql3.freemysqlhosting.net sql3141988 > db_sqlfile.sql
+and then the password after to save the sql in a file, then upload that file and we are done with step 3
+
+4. Finally someone needs to write this "document", but honestly it only needs to be a couple paragraphs. I chose Charli because she did a good job on the milestone 1 part. For the how much data part just use the numbers we imagine the final product having. Like maybe 150 buildings and that number is pretty constant, around 50 sportsscores and maybe 20 campusevents.
