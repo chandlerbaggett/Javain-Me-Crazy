@@ -25,10 +25,12 @@
         		if($db->connect_errno > 0){
            			die('Unable to connect to database [' . $db->connect_error . ']');
        			}
-        		$result = $db->query("SELECT * FROM campusevents ORDER BY 'date' ASC");
+        		$result = $db->query("SELECT * FROM campusevents LEFT JOIN buildings ON buildings.buildingid=campusevents.buildingid ORDER BY 'campusevents.date' ASC");
         		while ($row = $result->fetch_assoc()){
-            			echo "\t\t".'<li><span class="event">'.$row['name'].'</span>: <span>'.$row['date']." at ".$row['time']."</span></li>\n";
-				echo "Event Information: ".$row['info']."<br /><br />\n";
+            			echo "\t\t".'<li><span class="event">'.$row['name'].'</span>: <span>'.$row['date']." &#64; ".$row['time']."</span></li>\n";
+				echo $row['info']."<br />\n";
+				echo "Location: ".$row['buildingname']."<br />\n";
+				echo "Address: ".$row['address']."<br /><br />\n";
         		}
 		?>
  
