@@ -8,12 +8,12 @@
 		<body>
 			<nav>
 	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/sports_scores">Sports Scores</a></li>
-	        		<li><a href="/campus_map">Campus Map</a></li>
-	        		<li><a href="/events">Events</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/blog">Blog</a></li>
+	        		<li><a href="./index.html">Home</a></li>
+		        	<li><a href="./sportsscores.php">Sports Scores</a></li>
+	        		<li><a href="./campusmap.html">Campus Map</a></li>
+	        		<li><a href="./campusevents.php">Events</a></li>
+				<li><a href="./busroutes.html">Bus Routes</a></li>
+				<li><a href="./about.html">About</a></li>
 	    		</ul>
 			</nav>
 		<div class="container">
@@ -63,10 +63,6 @@
 		?>
  
 	</ul>
-
-
-
-
 			
 			</div><!-- /.container -->
 			<footer>

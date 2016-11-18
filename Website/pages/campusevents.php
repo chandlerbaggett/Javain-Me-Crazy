@@ -8,12 +8,12 @@
 		<body>
 			<nav>
 	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/sports_scores">Sports Scores</a></li>
-	        		<li><a href="/campus_map">Campus Map</a></li>
-	        		<li><a href="/events">Events</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/blog">Blog</a></li>
+	        		<li><a href="./index.html">Home</a></li>
+		        	<li><a href="./sportsscores.php">Sports Scores</a></li>
+	        		<li><a href="./campusmap.html">Campus Map</a></li>
+	        		<li><a href="./campusevents.php">Events</a></li>
+				<li><a href="./busroutes.html">Bus Routes</a></li>
+				<li><a href="./about.html">About</a></li>
 	    		</ul>
 			</nav>
 		<div class="container">
@@ -25,9 +25,10 @@
         		if($db->connect_errno > 0){
            			die('Unable to connect to database [' . $db->connect_error . ']');
        			}
-        		$result = $db->query("SELECT * FROM campusevents");
-        		while ($row = $result->fetch_assoc()    font-size: .8em;){
-            			echo "\t\t".'<li><span>'.$row['name'].'</span> - <span class="datetime">'.$row['date']." at ".$row['time']."</span></li> <br/> \n";
+        		$result = $db->query("SELECT * FROM campusevents ORDER BY 'date' ASC");
+        		while ($row = $result->fetch_assoc()){
+            			echo "\t\t".'<li><span class="event">'.$row['name'].'</span>: <span>'.$row['date']." at ".$row['time']."</span></li>\n";
+				echo "Event Information: ".$row['info']."<br /><br />\n";
         		}
 		?>
  
