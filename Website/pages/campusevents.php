@@ -37,11 +37,5 @@
 	</ul>
 			
 			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="jonah.jacobsen@colorado.edu">email</a></li>
-				<li>Phone: 801-717-8177</li>
-				</ul>
-			</footer>
 		</body>
 	</html>
