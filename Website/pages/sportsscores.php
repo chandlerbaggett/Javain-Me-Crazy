@@ -65,5 +65,10 @@
 	</ul>
 			
 			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+				<li>Java-In-Me Crazy Team 5</li>
+				</ul>
+			</footer>
 		</body>
 	</html>
