@@ -28,7 +28,6 @@
         		$result = $db->query("SELECT * FROM sportsscores WHERE sport='football'");
         		while ($row = $result->fetch_assoc()){
             			echo "\t\t".'<li><span>'.$row['opponent'].'</span> : '.$row['score']."</li> <br/> \n";
-				echo "hi";
         		}
 		?>
  
