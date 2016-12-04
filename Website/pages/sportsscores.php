@@ -2,7 +2,6 @@
 	<html>
 		<head>
 			<title>Buffs Sports Scores</title>
-			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="../css/main.css">
 		</head>
 		<body>
@@ -28,7 +27,8 @@
        			}
         		$result = $db->query("SELECT * FROM sportsscores WHERE sport='football'");
         		while ($row = $result->fetch_assoc()){
-            			echo "\t\t".'<li><span>'.$row['opponent'].'</span> - '.$row['score']."</li> <br/> \n";
+            			echo "\t\t".'<li><span>'.$row['opponent'].'</span> : '.$row['score']."</li> <br/> \n";
+				echo "hi";
         		}
 		?>
  
@@ -64,7 +64,7 @@
  
 	</ul>
 			
-			</div><!-- /.container -->
+			</div>
 			<footer>
 	    		<ul>
 				<li>Java-In-Me Crazy Team 5</li>
