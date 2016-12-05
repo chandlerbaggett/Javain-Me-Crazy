@@ -45,7 +45,7 @@
 							}
 							$result = $db->query("SELECT * FROM buildings ORDER BY buildingname ASC");
 							while ($row = $result->fetch_assoc()){
-								echo "\t\t\t\t\t\t\t".'<li class = "list-group-item"><a href="#" onclick="update(this.innerHTML)">'.$row['buildingname']."</a></li>\n";
+								echo "\t\t\t\t\t\t\t".'<li class = "list-group-item" id = "clickable" onclick="update(this.innerHTML, this)">'.$row['buildingname']."</li>\n";
 							}
 						?>
 						</ul>

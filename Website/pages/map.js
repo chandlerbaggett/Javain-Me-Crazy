@@ -1,15 +1,29 @@
 var map;
 var geocoder;
+var markers = [];
 window.onload = function initMap(){
 	geocoder = new google.maps.Geocoder();
 	var cen = {lat: 40.0067, lng: -105.2659};
 	map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
+          zoom: 15,
           center: cen
         });
 }
 
-function update(name){
+function update(name, element){
+	for (var i=0; i < markers.length; i++){
+		if(markers[i].getTitle() == name){
+			element.style.backgroundColor = "white";
+			markers[i].setMap(null);
+			markers.splice(i,1);
+			return;
+		}
+    	}
+	updateNew(name);
+	element.style.backgroundColor = '#ffff99';
+}
+
+function updateNew(name){
 	var address = buildings.filter( function( el ) {
 		return !!~el.indexOf( name );
 	} );
@@ -32,6 +46,7 @@ function update(name){
 			marker.addListener('click', function(){
 				infowindow.open(map, marker);
 			});
+			markers.push(marker);
 		}
 		else {
 			alert("An error occured when processing this request");
