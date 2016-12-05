@@ -61,8 +61,7 @@ function updateSearch(){
 	var li = ul.getElementsByTagName('li');
 	var a, i;
 	for (i = 0; i<li.length; i++){
-		a = li[i].getElementsByTagName("a")[0];
-		if (a.innerHTML.toUpperCase().indexOf(filter) > -1){
+		if (li[i].innerHTML.toUpperCase().indexOf(filter) > -1){
 			li[i].style.display="";
 		}
 		else{
