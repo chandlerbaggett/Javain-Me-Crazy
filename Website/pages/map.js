@@ -5,7 +5,7 @@ window.onload = function initMap(){
 	geocoder = new google.maps.Geocoder();
 	var cen = {lat: 40.0067, lng: -105.2659};
 	map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 15,
+          zoom: 16,
           center: cen
         });
 }
