@@ -1,7 +1,12 @@
+html {
+    height:100%;
+    width: 100%;
+}
 body {
     background-color: #CFB87C;
     margin: 60px auto;
     width: 70%;
+    height: 100%
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -39,6 +44,11 @@ footer {
 .event {
     font-size: 1.2em;
 }
-.campusmap{
-
+.map-canvas{
+    height:600px;
+    width: 100%;
+}
+#map{
+    height:100%;
+    width:100%;
 }
