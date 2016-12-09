@@ -1,5 +1,4 @@
 var map;
-var geocoder;
 var markers = [];
 window.onload = function initMap(){
 	geocoder = new google.maps.Geocoder();
@@ -23,35 +22,37 @@ function update(name, element){
 	element.style.backgroundColor = '#ffff99';
 }
 
+function findLatLong(name){
+	var i = 0;
+	while (true){
+		if (buildings[i][0] == name){
+			var temp = buildings[i][1];
+			temp = temp.match(/[\d.-]+/g);
+			temp = temp.toString().split(',');
+			return new google.maps.LatLng(parseFloat(temp[0]),parseFloat(temp[1]));
+		}
+		i++;
+	}
+}
+
 function updateNew(name){
-	var address = buildings.filter( function( el ) {
-		return !!~el.indexOf( name );
-	} );
-	address = address.toString();
+	var address = findLatLong(name);
 	var contentString = '<div>'+
 				name+
 			    '</div>';
 	var infowindow = new google.maps.InfoWindow({
 		content: contentString
 	});
-	geocoder = new google.maps.Geocoder();
-	geocoder.geocode({'address': address}, function(results, status){
-		if (status == google.maps.GeocoderStatus.OK){
-			map.panTo(results[0].geometry.location);
-			var marker = new google.maps.Marker({
-				position: results[0].geometry.location,
-				map: map,
-				title: name
-			});
-			marker.addListener('click', function(){
-				infowindow.open(map, marker);
-			});
-			markers.push(marker);
-		}
-		else {
-			alert("An error occured when processing this request");
-		}
+	map.panTo(address);
+	var marker = new google.maps.Marker({
+		position: address,
+		map: map,
+		title: name
 	});
+	marker.addListener('click', function(){
+		infowindow.open(map, marker);
+	});
+	markers.push(marker);
 }
 
 function updateSearch(){
