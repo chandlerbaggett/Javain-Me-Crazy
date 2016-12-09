@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	  <title>Java-in Me Crazy</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	<!-- Navbar (sit on top) -->
+	<div class="w3-top">
+	  <ul class="w3-navbar w3-white w3-wide w3-padding-8 w3-card-2">
+	    <li>
+	      <a href="#home" class="w3-margin-left">Home</a>
+	    </li>
+	    <!-- Float links to the right. Hide them on small screens -->
+	    <li class="w3-right w3-hide-small">
+	      <a href="#sportsscores" class="w3-left">Sports Scores</a>
+	      <a href="#campusmap" class="w3-left">Campus Map</a>
+	      <a href="#events" class="w3-left w3-margin-right">Events</a>
+	      <a href="#about" class="w3-left w3-margin-right">About</a>
+	    </li>
+	  </ul>
+	</div>
+
+	<!-- Header -->
+	<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+	  <img class="w3-image" src="https://i.ytimg.com/vi/AHNAgyyXiOI/maxresdefault.jpg" alt="Architecture" width="1500" height="800">
+	</header>
+
+	<!-- Page content -->
+	<div class="w3-content w3-padding" style="max-width:1564px">
+
+	  <!-- Sports Scores Section -->
+	  <div class="w3-container w3-padding-32" id="sportsscores">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Sports Scores</h3>
+    <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Football</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item">Fri, Sept 2 vs. Colorado State 44-7 W</li>
+          <li class="list-group-item">Sat, Sept 10 vs. Idaho State 56-7 W</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse2">Men's Basketball</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item">Fri, Nov 11 vs. Sacramento State 90-53 W</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse3">Women's Basketball</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item">Fri, Nov 11 vs. Northern Colorado 83-62 W</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">Volleyball</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item">Fri, Aug 26 vs. Texas Tech 3-2 W</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse5">Women's Soccer</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item">Fri, Aug 19 vs. Air Force 2-0 W</li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+    
+  </div>
+</div>
+	  
+	  <!-- Campus Map -->
+	  <div class="w3-container w3-padding-32" id="campusmap">
+	    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Campus Map</h3>
+	      <div id="googleMap" class="w3-grayscale" style="width:100%;height:450px;"></div>
+	  </div>
+	  
+	  <!-- Events Section -->
+	  <div class="w3-container w3-padding-32" id="events">
+	    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Events</h3>
+	  
+	  <div class="list-group">
+      <li class="list-group-item">
+      <span class="badge">12/07 7:00 PM</span>
+        <h4 class="list-group-item-heading">Thompson Jazz Faculty Performance</h4>
+        <p class="list-group-item-text">A faculty performance of Thompson Jazz</p>
+        
+      </li>
+      <li class="list-group-item">
+      <span class="badge">12/07 7:30 PM</span>
+        <h4 class="list-group-item-heading">Monitoring Climate from Space: Challenges, Opportunities, and LASP Contributions</h4>
+        <p class="list-group-item-text">Earths climate is a manifestation of a long-term balance of energy flows. Climate change occurs when there are energy imbalances, but these accumulate on much longer time scales than regular seasonal or annual cycles, for example. Monitoring climate t...</p>
+      </li>
+      <li class="list-group-item">
+      <span class="badge">12/08 7:00 PM</span>
+        <h4 class="list-group-item-heading">Messages From the Sky - Defining Humanity through the Cosmos</h4>
+        <p class="list-group-item-text">Since antiquity, humans have relied on the sky to define almost every aspect of daily life. Far-flung civilizations developed notions of time-keeping with intricate calendars eerily alike Mythological tales, religious holidays, and astrological divinat...</p>
+      </li>
+    </div>
+
+	  </div>
+	  
+	  <!-- About Section -->
+	  <div class="w3-container w3-padding-32" id="about">
+	    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">About</h3>
+	    <p>Javain-Me-Crazy is a group of CU students that decided to centralize all important information to CU students into one single place online. This site was made as a project for our Software Development Methods and Tools class. If you would like to report a bug or you would like to make suggestions, please email us.
+	    </p>
+	  </div>
+
+	  <div class="w3-row-padding w3-grayscale">
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <h3>Jonah Jacobsen</h3>
+	      <p class="w3-opacity">Front End Design</p>
+	      <p>Using crude knowledge of css and bootstrap to help Ryan design a fluid and bug-less website.</p>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <h3>Charli Anthony</h3>
+	      <p class="w3-opacity">Team Manager</p>
+	      <p>Directing and organizing the group to make sure we get milestones completed on time, Charli is the driving force behind the team.</p>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <h3>Chandler Baggett</h3>
+	      <p class="w3-opacity">Database Architecture</p>
+	      <p>The jack of all trades, Chandler floated between everybody, assisting on every aspect of the project.</p>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <h3>Ryan Bumaa</h3>
+	      <p class="w3-opacity">Interface Design</p>
+	      <p>As the visionary of the group Ryan is always looking to bring our project to the next level. After reigning in his expectations to an achievable level he guides the team on how the site should look.</p>
+	    </div>
+	    <div class="w3-col 13 m6 w3-margin-bottom">
+	      <h3>Michael Voecks</h3>
+	      <p class="w3-opacity">Backend Functionality</p>
+	      <p>Undeniable the most technically adept, Michael has set up a backend for us to store our data and host our site.</p>
+	    </div>
+	    <div class="w3-col 13 m6 w3-margin-bottom">
+	      <h3>Dylan Ahearn</h3>
+	      <p class="w3-opacity">Database Functionality</p>
+	      <p>Dylan has become fluent in SQL over the course of this project, executing queries and formatting tables whenever need be.</p>
+	    </div>
+	  </div>
+	</div>
+  
+	<!-- End page content -->
+
+
+	<!-- Footer -->
+	<footer class="w3-center w3-black w3-padding-16">
+	  <p>Project by team Javain Me Crazy</p>
+	</footer>
+
+	<!-- Add Google Maps -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+	<script>
+	<!-- Google Map Location -->
+	var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+	function initialize() {
+	var mapProp = {
+	  center: myCenter,
+	  zoom: 12,
+	  scrollwheel: false,
+	  draggable: false,
+	  mapTypeId: google.maps.MapTypeId.ROADMAP
+	  };
+
+	var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+	var marker = new google.maps.Marker({
+	  position: myCenter,
+	});
+
+	marker.setMap(map);
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+
+	</body>
+	</html>
+
