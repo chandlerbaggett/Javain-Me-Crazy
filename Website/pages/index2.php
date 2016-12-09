@@ -63,23 +63,77 @@
 	  <!-- Sports Scores Section -->
 	  <div class="w3-container w3-padding-32" id="sportsscores">
 	    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Sports Scores</h3>
+	    <div class="panel-group">
+	    <div class="panel panel-default">
+	      <div class="panel-heading">
+		<h4 class="panel-title">
+		  <a data-toggle="collapse" href="#collapse1">Football</a>
+		</h4>
+	      </div>
+	      <div id="collapse1" class="panel-collapse collapse">
+		<ul class="list-group">
+		  <li class="list-group-item">Fri, Sept 2 vs. Colorado State 44-7 W</li>
+		  <li class="list-group-item">Sat, Sept 10 vs. Idaho State 56-7 W</li>
+		</ul>
+	      </div>
+	    </div>
+	    
+	    <div class="panel panel-default">
+	      <div class="panel-heading">
+		<h4 class="panel-title">
+		  <a data-toggle="collapse" href="#collapse2">Men's Basketball</a>
+		</h4>
+	      </div>
+	      <div id="collapse2" class="panel-collapse collapse">
+		<ul class="list-group">
+		  <li class="list-group-item">Fri, Nov 11 vs. Sacramento State 90-53 W</li>
+		</ul>
+	      </div>
+	    </div>
+	    
+	    <div class="panel panel-default">
+	      <div class="panel-heading">
+		<h4 class="panel-title">
+		  <a data-toggle="collapse" href="#collapse3">Women's Basketball</a>
+		</h4>
+	      </div>
+	      <div id="collapse3" class="panel-collapse collapse">
+		<ul class="list-group">
+		  <li class="list-group-item">Fri, Nov 11 vs. Northern Colorado 83-62 W</li>
+		</ul>
+	      </div>
+	    </div>
+	    
+	    <div class="panel panel-default">
+	      <div class="panel-heading">
+		<h4 class="panel-title">
+		  <a data-toggle="collapse" href="#collapse4">Volleyball</a>
+		</h4>
+	      </div>
+	      <div id="collapse4" class="panel-collapse collapse">
+		<ul class="list-group">
+		  <li class="list-group-item">Fri, Aug 26 vs. Texas Tech 3-2 W</li>
+		</ul>
+	      </div>
+	    </div>
+	    
+	    <div class="panel panel-default">
+	      <div class="panel-heading">
+		<h4 class="panel-title">
+		  <a data-toggle="collapse" href="#collapse5">Women's Soccer</a>
+		</h4>
+	      </div>
+	      <div id="collapse5" class="panel-collapse collapse">
+		<ul class="list-group">
+		  <li class="list-group-item">Fri, Aug 19 vs. Air Force 2-0 W</li>
+		</ul>
+	      </div>
+	    </div>
+	    
+	  </div> 
 	  </div>
+	</div>
 
-	  <div class="w3-row-padding">
-	    <div class="w3-col l3 m6 w3-margin-bottom">
-	      <div class="w3-display-container">
-		<div class="w3-display-topleft w3-black w3-padding">Football</div>
-		<img src="https://www.lacrosseschools.org/longfellow-middle/wp-content/uploads/sites/6/2013/09/football.jpg" alt="House" style="width:100%">
-	      </div>
-	    </div>
-	    <div class="w3-col l3 m6 w3-margin-bottom">
-	      <div class="w3-display-container">
-		<div class="w3-display-topleft w3-black w3-padding">Volleyball</div>
-		<img src="http://www.northcape.k12.wi.us/Data/Sites/19/media/extracurricular/volleyball/volleyballclipart.jpg" alt="House" style="width:100%">
-	      </div>
-	    </div>
-	  </div>
-	  
 	  <!-- Campus Map -->
 	  <div class="w3-container w3-padding-32" id="campusmap">
 	    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Campus Map</h3>
